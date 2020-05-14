@@ -7,7 +7,8 @@
 # Link: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/
 
 # Notes: 
-# This is a "max-interval" problem.  
+# This is a "max-interval" or "max-difference" problem.  My initial thought is to try 2 pointers again, 
+# where for each value the other pointer scans through and finds the max difference.
 from typing import List
 def maxProfit(self, prices: List[int]) -> int:
     
