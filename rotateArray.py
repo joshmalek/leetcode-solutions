@@ -6,7 +6,7 @@
 # Notes:
 # Start from nums[k:end] and insert, then insert nums[0:k]
 # runtime: 0(n), space: 0(n)
-# try to improve to O(1) space
+# try to improve to O(1) space, cyclic dependencies (each element relies on another element)
 
 from typing import List
 def rotate(nums: List[int], k: int) -> None:
