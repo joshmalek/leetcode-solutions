@@ -7,7 +7,9 @@
 # Notes:
 # First idea: Iterate through the array, and count and delete every zero encountered.  At 
 # the end of the array, append the number of zeros counted.  This is O(n) time, and O(1) space.
-
+#
+# Refining: to make it better, figure out a way to add zeros to the end
+# of the array in the first while loop. 
 
 from typing import List
 def moveZeroes(nums: List[int]) -> None:
