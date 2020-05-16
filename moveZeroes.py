@@ -15,15 +15,13 @@ from typing import List
 def moveZeroes(nums: List[int]) -> None:
     i = 0
     count = 0
-    while(i < len(nums)):
+    while(i < len(nums)-count):
         if(nums[i]==0):
             del nums[i]
-            print(nums)
+            nums.append(0)
             count += 1
         else:
             i+=1
-    for x in range(0,count):
-        nums.append(0)
     print(nums)
 
 moveZeroes([0,1,0,3,12])
