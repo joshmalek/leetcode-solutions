@@ -6,7 +6,9 @@
 # Link: https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/769/
 
 # Notes: 
-# First idea: 
+# First idea: brute force by checking every row for no duplicates, and then checking every
+# column for no duplicates, and then checking every sub-box for no duplicates.  I think
+# this would be O(n) but it would take a lot of space.
 
 
 def isValidSudoku(board: List[List[str]]) -> bool:
