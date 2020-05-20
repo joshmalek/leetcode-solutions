@@ -9,7 +9,8 @@
 # will show up as equal to bb, as they have the same sum value.
 
 # A valid solution would be to sort both strings, and then compare them.  Sorting would be O(nlogn), and iteration
-# would be O(n), so the total time would be O(nlogn).
+# would be O(n), so the total time would be O(nlogn).  This is slower than the above solution, but is completely
+# valid.
 
 def isAnagram(s: str, t: str) -> bool:
     if(len(s) != len(t)):
