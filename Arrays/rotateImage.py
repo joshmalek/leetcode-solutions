@@ -11,6 +11,6 @@
 # [0][0],[0][1],[0][2]. Or [n][k],[n-1][k],[0][k] -> [k][0],[k][n-1], [k][n].
 
 # I just confused myself a lot.  A better way is apparently to reverse up to down, and then swap
-# the symmetry.  I'm not sure on this one though.
+# the symmetry.  I'm not sure on this one though.  I'll come back to this when I have learned more.
 
 def rotate(matrix: List[List[int]]) -> None:
