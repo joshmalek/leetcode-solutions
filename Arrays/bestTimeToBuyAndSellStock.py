@@ -8,7 +8,7 @@
 
 # Notes: 
 # This is a "max-interval" or "max-difference" problem.  My initial thought is to try 2 pointers again, 
-# where for each value the other pointer scans through and finds the max difference.
+# where for each value the other pointer scans through and finds the max difference.  Need to develop a solution.
 from typing import List
 def maxProfit(self, prices: List[int]) -> int:
     
