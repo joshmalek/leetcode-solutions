@@ -13,4 +13,6 @@
 # Link: https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/884/
 
 # Notes:
-# 
+# lstrip() all the white space from the left side, which leaves the number. Then look for a plus or minus if it exists.
+# After that, iterate through the string and split out where the number stops.  Then, convert this number using int.  If
+# this number is larger than INT MAX, return INT MAX (2^31).  This is O(n) runtime.
