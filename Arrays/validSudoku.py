@@ -8,7 +8,7 @@
 # Notes: 
 # First idea: brute force by checking every row for no duplicates, and then checking every
 # column for no duplicates, and then checking every sub-box for no duplicates.  I think
-# this would be O(n) but it would take a lot of space.
+# this would be O(n) but it would take a lot of space.  Need to develop full solution.
 
 
 def isValidSudoku(board: List[List[str]]) -> bool:
