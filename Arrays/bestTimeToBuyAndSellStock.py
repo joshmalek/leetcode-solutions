@@ -11,4 +11,17 @@
 # where for each value the other pointer scans through and finds the max difference.  Need to develop a solution.
 from typing import List
 def maxProfit(self, prices: List[int]) -> int:
-    
+    # my initial thought is to use a 2 pointer approach, because this is effectively a             
+    # "find the max difference problem".
+    minp = 1000000 #or INT.max
+    maxp = 0
+    for i in range(0,len(prices)):
+        # if the current price is less than the all time low, set it to the all-time low
+        if(prices[i] < minp):
+            minp = prices[i]
+        # if the current price - all time low is greater than the best profit, set the new best profit
+        elif(prices[i] - minp > maxp):
+            maxp = prices[i]-minp
+
+    # return the best profit
+    return maxp
