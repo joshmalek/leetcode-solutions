@@ -1,7 +1,7 @@
 # Link: https://leetcode.com/problems/climbing-stairs/
 
 # Notes: A basic backtracking algorithm.  We try and find the answers for all the subproblems before the main problem, and recursively work our way down.
-# We cache our subproblems to save compute time.
+# We cache our subproblems to save compute time through the recursion.
 
 def helper(self,i,n,cache)-> int:
     if(i > n):
