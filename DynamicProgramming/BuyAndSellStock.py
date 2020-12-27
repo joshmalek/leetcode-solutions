@@ -1,3 +1,5 @@
+# Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 def maxProfit(self, prices: List[int]) -> int:
     max_profit = 0
     for k in range(len(prices)-1,0,-1):
