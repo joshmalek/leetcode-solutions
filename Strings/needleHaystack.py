@@ -7,3 +7,5 @@
 # pointer out looking for the first occurence of the first char in the needle string.  It will then iterate
 # from there, and if it finds the full needle string there, it will return the index of the occurence.  This
 # is inefficient, with it mostly likely being an O(n^2) solution.
+
+#
