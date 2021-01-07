@@ -1,6 +1,7 @@
 # Link: https://www.pramp.com/challenge/3QnxW6xoPLTNl5jX5LM1
 
 # Not finished, not a good solution
+# Solution is find max index up to k, flip to k, and then flip to last position in array
 
 def pancake_sort(arr):
   for i in range(0,len(arr)):
