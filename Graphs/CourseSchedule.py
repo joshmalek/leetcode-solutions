@@ -1,3 +1,6 @@
+# Link: https://leetcode.com/problems/course-schedule/submissions/\
+# Need to understand how to reliably do this
+
 def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
     # A graph is a DAG if it has a topological sort
     # Do a depth first search, if node has been visited before, then it is not a DAG
